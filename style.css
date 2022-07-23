@@ -177,3 +177,8 @@ img#Diogo{
     border-radius: 30px;
     box-shadow: 3px 3px 5px black;
 }
+abbr:hover{
+    background-color: #faf21677;
+    border-radius: 10px;
+    padding: 2px;
+}
