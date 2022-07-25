@@ -134,8 +134,18 @@ img.boss{
     background-color: #72F25E;
     max-width: 90%;
 }
-dt.bossname:hover{
+dt.bossname > p:hover{
     text-decoration: underline;
+}
+img.icon{
+    display: block;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img.icon:hover{
+    background-color: red;
+    transition-duration: 0.5s;
 }
 dd{
     font-size: 20px;
